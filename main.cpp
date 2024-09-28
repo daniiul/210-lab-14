@@ -2,6 +2,7 @@
 #include <iomanip>
 using namespace std;
 
+// Creates class color with properties of red green and blue. Has ability to print those values.
 class Color{
     private:
         int red;
@@ -20,7 +21,7 @@ class Color{
             cout << "Red: " << red;
             cout << " Green: " << green;
             cout << " Blue: " << blue;
-
+            cout << endl;
         }
 };
 
