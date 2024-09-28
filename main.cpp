@@ -37,9 +37,9 @@ int main()
     b.setGreen(225);
     b.setBlue(2);
 
-    a.setRed(132);
-    a.setGreen(215);
-    a.setBlue(79);
+    c.setRed(132);
+    c.setGreen(215);
+    c.setBlue(79);
 
     a.print();
     b.print();
