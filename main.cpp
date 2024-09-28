@@ -14,6 +14,14 @@ class Color{
         void setGreen(int g) { green = g;}
         double getBlue() { return blue;}
         void setRed(int b) { blue = b;}
+
+        void print() const
+        {
+            cout << "Red: " << red;
+            cout << " Green: " << green;
+            cout << " Blue: " << blue;
+
+        }
 };
 
 int main() 
