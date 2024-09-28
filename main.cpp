@@ -14,7 +14,7 @@ class Color{
         double getGreen() { return green;}
         void setGreen(int g) { green = g;}
         double getBlue() { return blue;}
-        void setRed(int b) { blue = b;}
+        void setBlue(int b) { blue = b;}
 
         void print() const
         {
@@ -27,5 +27,21 @@ class Color{
 
 int main() 
 {
+    Color a, b, c;
 
+    a.setRed(233);
+    a.setGreen(145);
+    a.setBlue(76);
+
+    b.setRed(45);
+    b.setGreen(225);
+    b.setBlue(2);
+
+    a.setRed(132);
+    a.setGreen(215);
+    a.setBlue(79);
+
+    a.print();
+    b.print();
+    c.print();
 }
